@@ -1,0 +1,129 @@
+body {
+    font-family: 'Crimson Pro', serif;
+    /* font-size: 48px; */
+    background-color: #008080;
+}
+
+#container {
+    width: 900px;
+    height: 900px;
+    /* background-image: url(bg1.jpg); */
+    margin: auto;
+}
+
+#name {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #dce4e4;
+    /* word-spacing: 5px; */
+    font-family: 'verdana';
+}
+
+
+#calculator {
+    height: 700px;
+    width: 460px;
+    background-color: rgb(220, 228, 228);
+    margin: auto;
+    top: 20px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0;
+
+}
+
+#result {
+    border: 2px rgb(220, 228, 228);
+    height: 150px;
+    /* padding: 5px; */
+    /* margin-right: 32px; */
+}
+
+#history-value {
+    border: 2px rgb(220, 228, 228);
+    text-align: right;
+    color: rgb(14, 42, 14);
+    /* margin: 10px 20px; */
+    font-size: 24px;
+    padding-right: 55px;
+    padding-top: 25px;
+
+
+}
+
+#output {
+    border: 2px rgb(220, 228, 228);
+    text-align: right;
+    color: #3b3330;
+    font-size: 32px;
+    /* height:50px; */
+    font-weight: bold;
+    padding-right: 55px;
+
+}
+
+#keyboard {
+    /* border: 2px solid red; */
+    /* height: 540px; */
+}
+
+.operator,
+.number,
+.space {
+    width: 75px;
+    height: 75px;
+    margin: 16px;
+    float: left;
+    border: #3b3330;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 24px;
+
+}
+
+.space,
+.number {
+    background-color: rgb(220, 228, 228);
+}
+
+.number,
+.operator {
+    cursor: pointer;
+}
+
+.operator:active,
+.number:active {
+    font-size: 15px;
+}
+
+button:nth-child(4) {
+    font-size: 28px;
+    background-color: aquamarine;
+
+}
+
+button:nth-child(8) {
+    font-size: 28px;
+    background-color: bisque;
+
+}
+
+button:nth-child(12) {
+    font-size: 28px;
+    background-color: rgb(223, 190, 212);
+
+}
+
+button:nth-child(16) {
+    font-size: 28px;
+    background-color: rgb(204, 215, 175);
+
+}
+
+button:nth-child(20) {
+    font-size: 28px;
+    background-color: rgba(3, 118, 250, 0.237);
+
+}
